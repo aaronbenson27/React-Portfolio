@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -208,7 +208,7 @@ ul#nav li.current a { color: #F06000; }
 #about .profile-pic {
    position: relative;
    width: 120px;
-   height: 120px;
+   height: 150px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -346,14 +346,29 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 95%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.javascript {
+   width: 95%;
+   -moz-animation: javascript 2s ease;
+   -webkit-animation: javascript 2s ease;
+}
+.reactjs {
+  	width: 65%;
+  	-moz-animation: reactjs 2s ease;
+  	-webkit-animation: reactjs 2s ease;
+}
+.mongodb {
+   width: 80%;
+   -moz-animation: mongodb 2s ease;
+   -webkit-animation: mongodb 2s ease;
+}
+.mysql {
+   width: 85%;
+   -moz-animation: mysql 2s ease;
+   -webkit-animation: mysql 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -376,9 +391,21 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 65%;  }
+}
+@-moz-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 95%;  }
+}
+@-moz-keyframes mongodb {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+}
+@-moz-keyframes mysql {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
 }
 
 @-webkit-keyframes photoshop {
@@ -405,6 +432,22 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-webkit-keyframes reactjs {
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
+ }
+ @-webkit-keyframes javascript {
+    0%   { width: 0px;  }
+    100% { width: 95%;  }
+ }
+ @-webkit-keyframes mongodb {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+ }
+ @-webkit-keyframes mysql {
+    0%   { width: 0px;  }
+    100% { width: 85%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section

@@ -1,63 +1,52 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "name": "Aaron Benson",
+    "role": "aspiring Frontend and Backend Developer",
+    "linkedinId":" Aaron Benson",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": " I like dabbling in various parts of frontend development and like to learn about new technologies, read technical articles or simply play games in my free time.",
     "socialLinks":[
         {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "name":"Linkedin",
+          "url":"https://www.linkedin.com/in/aaron-benson-7a681b14b/",
           "className":"fa fa-linkedin"
         },
         {
-          "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "name":"Github",
+          "url":"https://github.com/aaronbenson27",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "name":"Instagram",
+          "url":"https://www.instagram.com/bigabenson/",
+          "className":"fa fa-instagram"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I recently graduated from Georgia College and State University and took an intership at Clutch Technolgies as an Operations Intern. I found that I was very curious to learn more about coding and web development, so I decided to take three months off to embark on the journey that is the Georgia Tech Boot Camp.",
+    "address":"abensonvols@gmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Georgia College and State University",
+        "specialization":"B.B.A in Management with a Minor in Finance",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2018",
+        "Achievements":"Graduated Cum Laude with a 3.6 GPA"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Georgia Tech Institute of Technology",
+        "specialization":"Graduated from Georgia Tech Full Stack Web Development Bootcamp",
+        "MonthOfPassing":"April",
+        "YearOfPassing":"2019"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Clutch Technologies",
+        "specialization":"Operations Intern",
+        "MonthOfLeaving":"Started",
+        "YearOfLeaving":"August 2018",
+        "Achievements":"Responsible for helping with customer satisfaction as well as analyzing data in order to make our service more courteous and accesible to customers. "
       },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
     ],
-    "skillsDescription":"Your skills here",
     "skills":[
       {
         "skillname":"HTML5"
@@ -67,38 +56,51 @@ let resumeData = {
       },
       {
         "skillname":"Reactjs"
+      },
+      {
+        "skillname":"MongoDB"
+      },
+      {
+        "skillname":"JavaScript"
+      },
+      {
+        "skillname":"MySQL"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Bamazon",
+        "description":"Full Stack CRUD application using MYSQL",
+        "imgurl":"../../images/Bamazon.png",
+        "link":"https://still-ravine-37699.herokuapp.com/"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Employee Finder",
+        "description":"Full Stack CRUD application using MYSQL",
+        "imgurl":"../../images/EmployeeFinder.png",
+        "link":"https://frozen-hamlet-71370.herokuapp.com/"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Tiny Improvements",
+        "description":"Full Stack CRUD application using MongoDB",  
+        "imgurl":"../../images/TinyImprovements.png",
+        "link":"https://peaceful-escarpment-51059.herokuapp.com/"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Transmogrify Project",
+        "description":"Application that connects the Twitter API and a Words API to transform tweets",
+        "imgurl":"../../images/Transmogrify.png",
+        "link":"https://nolannick.github.io/TransmogrifyProject/"
       }
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Measuring programming progress by lines of code is like measuring aircraft building progress by weight",
+        "name":"Bill Gates"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Any fool can write code that a computer can understand. Good programmers write code that humans can understand",
+        "name":"Martin Fowler"
       }
     ]
   }
